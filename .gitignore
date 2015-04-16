@@ -1,0 +1,6 @@
+.*.swp
+*.py[cod]
+__pycache__/
+instances
+instances.*
+!instances.sample

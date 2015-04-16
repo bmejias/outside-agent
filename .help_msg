@@ -1,0 +1,10 @@
+The Outside Agent: Tool to interact with all instances listed on file: instances
+
+Usage
+
+    make [target]
+
+Targets:
+    hosts          list all the hosts
+
+    help           this help message

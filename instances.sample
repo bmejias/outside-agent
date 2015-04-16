@@ -1,0 +1,4 @@
+ALIAS;IP_ADDRESS;TOMCAT_HOME;USERNAME;PASSWORD;ALF_URL
+prod;127.0.0.1;/opt/alfresco/tomcat;admin;password;http://127.0.0.1:8080
+test;127.0.0.1;/opt/alfresco/tomcat;admin;password;http://127.0.0.1:8080
+dev;127.0.0.1;/opt/alfresco/tomcat;admin;password;http://127.0.0.1:8080
