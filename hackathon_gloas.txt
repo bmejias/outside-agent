@@ -1,0 +1,15 @@
+This is a list of tasks to achieve during the hackathon:
+
+These are the more generic task the tool can do
+
+- ping_test     just a ping to the server
+- ssh_test      check if ssh connection is working
+- port_8080_test check the status of port 8080
+
+These are the tasks Alfresco related
+
+- get_version   get the version of the Alfresco instance
+- server_info   get more information about the Alfresco instance
+- get_users     get the amount of users registered in the instance
+- get_sites     get the amount of sites created in the instance
+
