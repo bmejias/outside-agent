@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep "$1;" instances | awk --field-separator=';' '{print $2}'
+./get_csv_item.sh $1 ip
