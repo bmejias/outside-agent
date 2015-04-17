@@ -5,6 +5,8 @@ Usage
     make [target]
 
 Targets:
-    hosts          list all the hosts
+    get_version get version of each instance
+    hosts       list all the hosts
+    ping_test   ping instances
 
-    help           this help message
+    help        this help message
