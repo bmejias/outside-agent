@@ -5,8 +5,9 @@ Usage
     make [target]
 
 Targets:
-    get_version get version of each instance
+    license     check license
+    version     get version of each instance
     hosts       list all the hosts
-    ping_test   ping instances
+    ping        ping instances
 
     help        this help message
