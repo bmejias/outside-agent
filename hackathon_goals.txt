@@ -7,7 +7,6 @@ These are the more generic task the tool can do
 
 These are the tasks Alfresco related
 
-- server_info   get more information about the Alfresco instance
 - get_users     get the amount of users registered in the instance
 - get_sites     get the amount of sites created in the instance
 
@@ -15,3 +14,4 @@ DONE
 
 - ping_test     just a ping to the server
 - get_version   get the version of the Alfresco instance
+- check_license check license of Alfresco instance

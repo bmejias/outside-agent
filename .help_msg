@@ -9,5 +9,6 @@ Targets:
     version     get version of each instance
     hosts       list all the hosts
     ping        ping instances
+    ssh         test ssh access
 
     help        this help message
