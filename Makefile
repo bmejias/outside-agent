@@ -12,15 +12,11 @@ SSHS=$(foreach host, $(HOSTS), ssh_test_$(host))
 
 license: $(LICS)
 
-get_version: $(VERSIONS)
-
-ping_test: $(PINGS)
-
-ping: ping_test
+ping: $(PINGS)
 
 ssh: $(SSHS)
 
-version: get_version
+version: $(VERSIONS)
 
 hosts:
 	@for h in $(HOSTS); do echo $$h; done
