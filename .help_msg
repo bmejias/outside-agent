@@ -10,5 +10,8 @@ Targets:
     hosts       list all the hosts
     ping        ping instances
     ssh         test ssh access
+    login       test login
+    status      check the status of the service alfresco
+    stop        stops the service alfresco
 
     help        this help message
