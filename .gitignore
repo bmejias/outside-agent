@@ -4,3 +4,4 @@ __pycache__/
 instances
 instances.*
 !instances.sample
+config_ssh
