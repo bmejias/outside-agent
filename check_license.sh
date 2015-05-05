@@ -1,13 +1,9 @@
 #!/bin/sh
 
-username=`./get_csv_item.sh $1 username`
-password=`./get_csv_item.sh $1 password`
 alf_url=`./get_csv_item.sh $1 url`
-api_url="${alf_url}/alfresco/service/api"
-login_url="${api_url}/login"
-usage_url="${api_url}/admin/usage"
+usage_url="${alf_url}/alfresco/service/api/admin/usage"
 
-ticket=`curl -G "${login_url}" --data-urlencode "u=${username}" --data-urlencode "pw=${password}" 2> /dev/null | xmllint --xpath '/ticket/text()' -`
+ticket=`./get_ticket.sh $1`
 curl -G "${usage_url}?alf_ticket=${ticket}" 2> /dev/null > .$1.usage.json
 warns=`jshon -e warnings -l < .$1.usage.json`
 warnings=`jshon -e warnings < .$1.usage.json`
