@@ -11,6 +11,8 @@ Targets:
     ping        ping instances
     ssh         test ssh access
     login       test login
+
+    start       start the service alfresco
     status      check the status of the service alfresco
     stop        stops the service alfresco
 
