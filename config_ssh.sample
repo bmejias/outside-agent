@@ -1,0 +1,4 @@
+#!/bin/bash
+
+OAUSER=adent
+OAKEY=/home/adent/.ssh/adent.rsa
