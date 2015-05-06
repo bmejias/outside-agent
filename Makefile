@@ -48,13 +48,13 @@ ping_test_%:
 	@./ping_host.sh $(subst ping_test_,,$@)
 
 start_%:
-	@./service.sh $(subst status_,,$@) start
+	@./service.sh $(subst start_,,$@) start
 
 status_%:
 	@./service.sh $(subst status_,,$@) status
 
 stop_%:
-	@./service.sh $(subst status_,,$@) stop
+	@./service.sh $(subst stop_,,$@) stop
 
 ssh_test_%:
 	@./ssh_test.sh $(subst ssh_test_,,$@)
