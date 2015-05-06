@@ -3,5 +3,5 @@
 source config_ssh
 
 ip=`./get_csv_item.sh $1 ip`
-service_call="'/usr/bin/sudo /usr/sbin/service alfresco $2'"
-(ssh -l $OAUSER -i $OAKEY $ip ${service_call} 2> /dev/null) || echo "$1 failed"
+result=`(ssh -l $OAUSER -i $OAKEY $ip "/usr/bin/sudo -S /sbin/service alfresco $2" 2> /dev/null) || echo "$1 failed"`
+echo -e "$1\t${result}"
