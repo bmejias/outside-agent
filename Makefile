@@ -62,5 +62,5 @@ ssh_test_%:
 help: all
 
 
-.PHONY: all help hosts ping_test get_version license login ping ssh_test \
+.PHONY: all help hosts ping_test version license login ping ssh_test \
 	start status stop
